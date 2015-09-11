@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2015, 1:08:37 PM
+    Author     : erinclough
+*/
+
+/*
+Erin Clough
+*/
+
+html {
+    font-family: Arial;
+    color:#8A2BE2;
+}
+
+body {
+    font-family: Negotiate, Cabin, sans-serif;
+    font-size: 100%;
+    
+    ::first-letter {
+    font-size: 200%;
+    color:#8A2BE2;
+}
+}
+
+p::first-letter {
+    font-size: 200%;
+    color:#8A2BE2;
+}
+
+header {
+   img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+    h1{
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px #ff0000;
+    //font-size: 
+    ::first-letter {
+    font-size: 200%;
+    color:#8A2BE2;
+}
+}
+}
+
+
+p {
+    text-indent: 50px;
+}
+
+header {
+    
+}
+
+
+
+
+h2 {
+    
+}
+
+h3 {
+    
+}
+
+/* unvisited link */
+a:link {
+    color: #FF9900;
+    font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+    color: #FF9900;
+    font-weight: bold;
+}
+
+/* mouse over link */
+a:hover {
+    color: #339900;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 75%;
+    text-align: center;
+}

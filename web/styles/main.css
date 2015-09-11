@@ -1,0 +1,74 @@
+/*
+Erin Clough
+*/
+
+html {
+    font-family: sans-serif;
+    color:#000000;
+}
+
+body {
+    font-family: Negotiate, Cabin, sans-serif;
+    font-size: 100%;
+}   
+
+img {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+h1#store{
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px #000000;
+    font-size: 275%;
+    padding-left: 3em;   
+}
+
+h3#goblin {
+    font-size: 125%;
+    padding-left: 7em;
+}
+
+h2#welcome::first-letter {
+    font-size: 250%;
+}
+
+h2#welcome {
+    font-size: 150%;
+}
+
+h2#product {
+    font-size: 115%;
+}
+
+h2#guarantee {
+    font-size: 115%;
+}
+
+li {
+    padding-bottom: .5em;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF9900;
+    font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+    color: #FF9900;
+    font-weight: bold;
+}
+
+/* mouse over link */
+a:hover {
+    color: #339900;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 85%;
+    text-align: center;
+}
