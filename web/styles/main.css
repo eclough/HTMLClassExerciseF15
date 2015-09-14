@@ -5,9 +5,26 @@ Erin Clough
 
 html{
     font-family: sans-serif;
-    //color:#000000;
+    color:#000000;
+    background-image: url(../images/bats.gif);
+    background-repeat: repeat;
+    //background-repeat: repeat-y;
     
 }
+
+body {
+    font-family: Negotiate, Cabin, sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 25px 8px #000;
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    padding: 0;
+    //padding-top: 0;
+    //font-size: 100%;
+}  
 
 header {
     border-bottom: solid;
@@ -17,28 +34,33 @@ header {
     padding-top: .5em;
 }
 
-body {
-    font-family: Negotiate, Cabin, sans-serif;
-    //font-size: 100%;
-}   
+main a {
+    display: block;
+    padding-left: 16px;
+}
 
-img {
+a sup {
+    display: inline-block;
+    border-bottom: 1px solid orange;
+    padding-bottom: 11px;
+}
+ 
+
+header img {
+    
     float: left;
     margin: 0 0 10px 10px;
 }
 
-div {
-    box-shadow: 0 0 25px 8px #000;
-    background-color: white;
-    border-style: solid;
-    border-width: 4px;
-    border-color: black;
+main {
+    
+    width: 600px;
+    float: right;
+    
+    //position: relative;
+    //width: 100%;
 }
 
-#page-wrap{
-    width: 800px;
-    margin: 0 auto;
-}
 h1#store{
     /*color: orange;
     font-style: italic;
@@ -113,7 +135,23 @@ a:hover {
     font-weight: bold;
 }
 
+.sidebar {
+    clear: both;
+    float: left;
+    width: 160px;
+    background: white;
+    //min-height: 100%;
+    //position: absolute;
+    //top: 0;
+    //bottom: 0;
+    //left: 0;
+    //width: 160px;
+}
+
+ 
+
 footer {
+    clear: both;
     padding-top: 1em;
     padding-bottom: 1em;
     font-size: 20px;
