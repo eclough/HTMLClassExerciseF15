@@ -2,14 +2,24 @@
 Erin Clough
 */
 
-html {
+
+html{
     font-family: sans-serif;
-    color:#000000;
+    //color:#000000;
+    
+}
+
+header {
+    border-bottom: solid;
+    border-bottom-color: black;
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange 75%, black);
+    padding-top: .5em;
 }
 
 body {
     font-family: Negotiate, Cabin, sans-serif;
-    font-size: 100%;
+    //font-size: 100%;
 }   
 
 img {
@@ -17,17 +27,33 @@ img {
     margin: 0 0 10px 10px;
 }
 
+div {
+    box-shadow: 0 0 25px 8px #000;
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+}
+
+#page-wrap{
+    width: 800px;
+    margin: 0 auto;
+}
 h1#store{
-    color: orange;
+    /*color: orange;
     font-style: italic;
-    text-shadow: 2px 2px #000000;
-    font-size: 275%;
-    padding-left: 3em;   
+    text-shadow: 2px 2px #000000;*/
+    font-size: 40px;
+    padding-left: 2.5em;   
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h3#goblin {
-    font-size: 125%;
-    padding-left: 7em;
+    font-size: 18px;
+    padding-left: 5.7em;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 h2#welcome::first-letter {
@@ -35,19 +61,38 @@ h2#welcome::first-letter {
 }
 
 h2#welcome {
-    font-size: 150%;
+    font-size: 22px;
+    padding-left: .5em;
+    padding-top: .25em;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 h2#product {
     font-size: 115%;
+    padding-left: 1em;
 }
 
 h2#guarantee {
     font-size: 115%;
+    padding-left: 1em;
+    margin-bottom: 0px;
 }
 
 li {
     padding-bottom: .5em;
+}
+
+p {
+    padding-left: 1em;
+    padding-right: .75em;
+    font-size: 18.25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p#satisfied {
+    padding-bottom: 1em;
 }
 
 /* unvisited link */
@@ -69,6 +114,12 @@ a:hover {
 }
 
 footer {
-    font-size: 85%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 20px;
     text-align: center;
+    border-top: solid;
+    border-top-color: black;
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange 25%, white);
 }
