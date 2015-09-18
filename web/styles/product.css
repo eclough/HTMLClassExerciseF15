@@ -38,21 +38,10 @@ header img {
 
 main {  
     width: 450px;
-    //margin-left: 180px;
     padding-left: 10px;
-    //width: 70%;
     margin-right: 0;
     float: right;
 }
-
-/*div#description {
-    float: right;
-}*/
-
-/*div#description img {
-    margin: 0;
-    margin-left: 0;
-}*/
 
 h1#store{
     /*color: orange;
@@ -96,8 +85,6 @@ div#description {
     float: right;
     width: 250px;
     font-size: 18px;
-    //margin-right: 150px;
-    //margin-left: 10px;
 }
 
 main a {
@@ -106,23 +93,12 @@ main a {
     padding-left: 20px;
 }
 
-/*div#description img {
-    float: left;
-    margin-left: 0px;
-}*/
 
 div#sidebar {
-    //clear: both;
     float: left;
     width: 160px;
     background: white;
     margin-right: 0;
-    //min-height: 100%;
-    //position: absolute;
-    //top: 0;
-    //bottom: 0;
-    //left: 0;
-    //width: 160px;
 }
 
 div#sidebar ul {
@@ -154,7 +130,6 @@ p#heading {
 }
 
 div#rightsidebar {
-    //clear: both;
     float: right;
     width: 180px;
     background-color: #F5DEB3;
@@ -201,13 +176,10 @@ div#rightsidebar a:hover {
     text-align: center;
     margin: 0;
     padding: 0;
-    //float: left;
-    //clear: both;
     margin-top: 0;
 }
 
 .navbar li {
-    //float: left;
     display: inline-block;
     font-family: sans-serif;
     font-size: 1em;
@@ -215,9 +187,6 @@ div#rightsidebar a:hover {
     width: 19%;
     margin: 0;
     padding: 0;
-    //height: 30px;
-    //border-bottom: 1px solid #888;
-    //border-top: 1px solid #888;
 }
 
 .navbar a {

@@ -21,8 +21,6 @@ body {
     border-width: 4px;
     border-color: black;
     padding: 0;
-    //padding-top: 0;
-    //font-size: 100%;
 }  
 
 header {
@@ -33,42 +31,45 @@ header {
     padding-top: .5em;
 }
 
-
-
-/*ul a {
-    display: block;
-    width: 60px;
-}*/
-
-/*li {
-    float: left;
-}*/
-
-/*a:link, a:visited {
-    display: block;
-    width: 120px;
-    font-weight: bold;
-    color: white;
-    background-color: black;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
+p#productList {
+    font-size: 20px;
+    padding-left: 415px;
+    margin-top: 12px;
+    margin-bottom: 0;
 }
 
-.currentLink {
-   color: #640200;
-   background-color: #000000;
+table {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-collapse: collapse;
 }
 
-navbar a:hover, navbar a:active {
-    background-color: gray;
+.left {
+    text-align: left;
+    padding-right: 80px;
+    padding-left: 40px;
+}
+
+.center {
+    text-align: left;
+    padding-right: 100px;
+    font-weight: normal;
+    padding-bottom: 7px;
+}
+
+.center a:link {
     color: black;
+    font-weight: normal;
+    padding-bottom: 2px;
 }
-*/
-main a {
-    display: block;
-    padding-left: 16px;
+
+.right {
+    text-align: right;
+    background-color: #F5DEB3;
+    font-weight: normal;
+    width: 100px;    
 }
 
 a sup {
@@ -82,18 +83,7 @@ header img {
     margin: 0 0 10px 10px;
 }
 
-main {  
-    width: 600px;
-    float: right;
-    
-    //position: relative;
-    //width: 100%;
-}
-
 h1#store{
-    /*color: orange;
-    font-style: italic;
-    text-shadow: 2px 2px #000000;*/
     font-size: 40px;
     padding-left: 2.5em;   
     margin-top: 0;
@@ -107,46 +97,10 @@ h3#goblin {
     margin-bottom: 10px;
 }
 
-h2#welcome::first-letter {
-    font-size: 250%;
-}
-
-h2#welcome {
-    font-size: 28px;
-    padding-left: .25em;
-    padding-top: .25em;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-h2#product {
-    font-size: 145%;
-    padding-left: .5em;
-}
-
-h2#guarantee {
-    font-size: 115%;
-    padding-left: .5em;
-    margin-bottom: 0px;
-}
-
 li {
     padding-bottom: .5em;
 }
 
-p {
-    padding-left: .5em;
-    padding-right: .75em;
-    font-size: 15.5px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: .5em;
-}
-
-
-p#satisfied {
-    padding-bottom: 1em;
-}
 
 /* unvisited link */
 a:link {
@@ -171,12 +125,6 @@ a:hover {
     float: left;
     width: 160px;
     background: white;
-    //min-height: 100%;
-    //position: absolute;
-    //top: 0;
-    //bottom: 0;
-    //left: 0;
-    //width: 160px;
 }
 
 .sidebar ul {
@@ -218,8 +166,6 @@ a:hover {
     font-size: 1em;
     line-height: 30px;
     height: 30px;
-    //border-bottom: 1px solid #888;
-    //border-top: 1px solid #888;
 }
 
 .navbar a {
@@ -233,11 +179,6 @@ a:hover {
     background-color: gray;
     color: black;
 }
-
-/*.navbar .current-menu-item a {
-    color: orange;
-    background-color: black;
-}*/
 
 .current a {
     background-color: black;
