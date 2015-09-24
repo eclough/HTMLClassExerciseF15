@@ -1,0 +1,169 @@
+/*
+Erin Clough
+*/
+
+
+html{
+    font-family: sans-serif;
+    color:#000000;
+    background-image: url(../images/bats.gif);
+    background-repeat: repeat;
+    
+}
+
+body {
+    font-family: Negotiate, Cabin, sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 25px 8px #000;
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    padding: 0;
+}  
+
+header {
+    border-bottom: solid;
+    border-bottom-color: black;
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange 75%, black);
+    padding-top: .5em;
+}
+
+main a {
+    display: block;
+    padding-left: 16px;
+}
+
+a sup {
+    display: inline-block;
+    border-bottom: 1px solid orange;
+    padding-bottom: 11px;
+}
+
+header img {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+main {  
+    width: 600px;
+    float: right;
+}
+
+h1#store{
+    font-size: 40px;
+    padding-left: 2.5em;   
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3#goblin {
+    font-size: 18px;
+    padding-left: 5.7em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.sidebar {
+    clear: both;
+    float: left;
+    width: 160px;
+    background: white;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+.sidebar a {
+    display: block;
+    border: solid 2px black;
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    width: 140px;
+    height: 20px;
+    padding-left: .6em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    font-size: 110%
+        
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    margin-top: 0;
+}
+
+.navbar li {
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: .3s background-color;
+}
+
+.navbar a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.current a {
+    background-color: black;
+    color: orange;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .navbar li {
+        width: 160px;
+        border-bottom: none;
+        height: 30px;
+        line-height: 30px;
+        font-size: 1em;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+}
+
+footer {
+    clear: both;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 20px;
+    text-align: center;
+    border-top: solid;
+    border-top-color: black;
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange 25%, white);
+}
+
